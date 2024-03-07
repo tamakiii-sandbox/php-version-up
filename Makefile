@@ -8,5 +8,8 @@ install: vendor
 uninstall:
 	rm -rf vendor
 
+test:
+	vendor/bin/phpunit -vvv test
+
 vendor:
 	composer install
