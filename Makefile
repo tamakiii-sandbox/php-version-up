@@ -1,4 +1,4 @@
-.PHONY: help install uninstall
+.PHONY: help install uninstall test
 
 help:
 	@cat $(firstword $(MAKEFILE_LIST))
