@@ -1,0 +1,9 @@
+{
+    "name": "tamakiii-sandbox/php-version-up",
+    "autoload": {
+        "psr-4": {
+            "TamakiiiSandbox\\PhpVersionUp\\": "src/"
+        }
+    },
+    "require": {}
+}
