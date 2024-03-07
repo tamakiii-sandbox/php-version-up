@@ -5,6 +5,7 @@ RUN amazon-linux-extras enable php7.3 && \
       php \
       php-mbstring \
       php-common \
+      php-xml \
       && \
     yum clean all
 
